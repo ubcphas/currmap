@@ -1,2 +1,0 @@
-# currmap
-Curriculum mapping project
