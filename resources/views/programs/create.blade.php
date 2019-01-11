@@ -19,3 +19,18 @@
   {{ Form::close() }}
 
 @stop
+
+
+@section('js')
+<script>
+  $(document).ready(function(){
+    $("#dtable").DataTable( {
+      "columnDefs": [
+      {"orderable": false, "targets": "no-sort"}
+      ],
+      "paging": false,
+      "info": false
+    });
+  });
+</script>
+@stop

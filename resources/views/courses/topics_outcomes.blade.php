@@ -1,9 +1,9 @@
 <div class="row">
     <div class="form-group col-md-12">
-        <table class="table table-striped">
+        <table id="dtableo" class="table table-striped">
             <thead>
                 <tr>
-                    <th>Sel</th>
+                    <th class="no-sort">Sel</th>
                     <th>Name</th>
                     <th>Fraction</th>
                 </tr>
@@ -21,16 +21,23 @@
                </tr>
                @endforeach
            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><span id="totalFracOutcome">0.0</span></td>
+                </tr>
+            </tfoot>
        </table>
    </div>
 </div>
 
 <div class="row">
     <div class="form-group col-md-12">
-        <table class="table table-striped">
+        <table id="dtablet" class="table table-striped">
             <thead>
                 <tr>
-                    <th>Sel</th>
+                    <th class="no-sort">Sel</th>
                     <th>Name</th>
                     <th>Level</th>
                     <th>Fraction</th>
@@ -52,7 +59,15 @@
                    </td>
                </tr>
                @endforeach
-           </tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><span id="totalFracTopic">0.0</span></td>
+                </tr>
+            </tfoot>
        </table>
    </div>
 </div>

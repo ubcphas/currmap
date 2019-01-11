@@ -15,7 +15,7 @@ class OutcomeThemeController extends Controller
     public function index()
     {
         //
-        $othemes = OutcomeTheme::sortable()->paginate(10);
+        $othemes = OutcomeTheme::all();
         return view('outcome_themes.index', compact('othemes'));
     }
 

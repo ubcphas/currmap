@@ -16,7 +16,7 @@ class OutcomeController extends Controller
     public function index()
     {
         //
-        $outcomes = Outcome::sortable()->paginate(10);
+        $outcomes = Outcome::all();
         return view('outcomes.index', compact('outcomes'));
     }
 

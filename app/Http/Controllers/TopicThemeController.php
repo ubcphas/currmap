@@ -15,7 +15,7 @@ class TopicThemeController extends Controller
     public function index()
     {
         //
-        $tthemes = TopicTheme::sortable()->paginate(10);
+        $tthemes = TopicTheme::all();
         return view('topic_themes.index', compact('tthemes'));
     }
 

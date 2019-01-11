@@ -1,6 +1,6 @@
 <div class="row">
     <div class="form-group col-md-12">
-        <table class="table table-striped">
+        <table id="dtable" class="table table-striped">
             <thead>
                 <tr>
                     <th>Course</th>

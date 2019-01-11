@@ -7,8 +7,8 @@
     <table class="table table-striped">
     <thead>
       <tr>
-        <th>@sortablelink('id')</th>
-        <th>@sortablelink('name', 'Name')</th>
+        <th>id</th>
+        <th>Name</th>
       </tr>
     </thead>
     <tbody>
