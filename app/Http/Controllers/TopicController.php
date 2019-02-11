@@ -43,7 +43,7 @@ class TopicController extends Controller
         //
         // Validate that the data has the correct format
         $request->validate([
-        'name' => 'required|max:25',
+        'name' => 'required|max:40',
         'description' => 'required',
         ]);
         // Create new record with the form data
